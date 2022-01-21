@@ -1,0 +1,205 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.container{
+    position: relative;
+    padding: 230px;
+    background-image: url(images/bg-pattern-intro.svg);
+    background-position: center;
+    background-color: rgb(226, 104, 104);
+    border-radius: 0 0 0 60px ;
+    color: white;
+}
+.menu-principal{
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    padding: 0 120px;
+}
+.menu-principal h1{
+    position: absolute;
+    left: 1px;
+    bottom: 5px ;
+    float: right;
+}
+.menu-principal a{
+    text-decoration: none;
+    color: white;
+    
+}
+.login button{
+    position: absolute;
+    right: 80px;
+    top: 30px; 
+}
+.login h1{
+    position: absolute;
+    float: left;
+    right: 190px;
+    top: 30px;
+    font-size: 15px;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+.menu ul li{
+    display: inline;
+    position: relative;
+    text-align: center;
+}
+.menu ul li a{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+.menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+    text-align: center;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+.text-header{
+    position: absolute;
+    right: 270px;
+    top: 100px;
+    padding: 45px;
+    text-align: center;
+}
+.text-header h1{
+    font-size: 45px;  
+    letter-spacing: 2px;  
+}
+button{
+    background: white;
+    border: white;
+    border-radius: 50px;
+    padding: 6px 15px 6px 15px;
+    color: tomato;
+    font-weight: bolder; 
+}
+.star{
+    background: white;
+    border: white;
+    border-radius: 50px;
+    padding: 8px 15px 8px 15px;
+    color: tomato;
+    font-weight: bolder;  
+    letter-spacing: 1px;
+}
+.star:hover{
+    background: tomato;
+    color: white;
+    border: white 1px solid;
+}
+/*FIM DO CABEÇALHO*/
+.container-2{
+    height: 700px;
+    background-image: url(images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: 760px 10px;
+    background-size: 700px;
+    color: rgb(24, 24, 80);
+}
+section h1{
+    text-align: center;
+    margin: 130px 0 40px 0;
+    font-size: 30px;
+}
+.intro{  
+    display: inline-block;
+    margin: 70px 600px 0 100px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.intro-2{
+    display: inline-block;
+    margin: 30px 600px 0 100px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+/*FIM DA INTRO*/
+.celular-bg{
+    position: relative;
+    background: rgb(12, 12, 44);
+    background-image: url(images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: -300px -700px;
+    height: 400px;
+    border-radius: 0 60px 0 60px ;
+}
+.celular{
+    display: inline-block;
+    margin: 0 0 35px 70px;
+    position: absolute;
+    bottom: -160px;
+    
+}
+.intro-3{
+    display: inline-block;
+    line-height: 1.5;
+    font-size: 15px;
+    position: absolute;
+    color: white;
+    left: 500px;
+    padding: 50px 190px;
+    top: 30px;    
+}
+/*FIM DA INTRO-2*/
+.container-3{
+    margin-top: 100px;
+    height: 700px;
+    background-image: url(images/illustration-laptop-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: -200px 10px;
+    background-size: 700px;
+    position: relative;
+}
+.intro-4{
+    margin: 120px 110px 0 60px;
+    display: inline-block;
+    padding: 10px 0 20px 0;
+    line-height: 1.5;
+    font-size: 15px;
+    position: absolute;
+    left: 500px;
+}
+.intro-5{
+    display: inline-block;
+    line-height: 1.5;
+    font-size: 15px;
+    position: absolute;
+    margin: 310px 110px 0 60px;
+    padding: 10px 0 20px 0;
+    left: 500px;
+}
+/*FIM DA INTRO-3*/
+.footer{
+    background: rgb(22, 22, 22);
+    height: 250px;
+    border-radius: 0 60px 0 0 ;
+    color: white;
+}
+.logo{
+    margin-top: 40px;
+    margin-left: 180px;
+}
+.tabela{
+    margin-left: 300px;
+    line-height: 20px;
+}
+.tabela td{
+    text-align: center;
+}
